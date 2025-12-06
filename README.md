@@ -44,8 +44,8 @@ Operation:
 	Use the angle directly
 	Use positive initial vector
 Values used:
-Zi = angle_in
-Xi = +K   (0.607252 in Q2.13 → 0x136E)
+Zi = angle_in;
+Xi = +K   (0.607252 in Q2.13 → 0x136E);
 Yi = 0
 
 
@@ -56,8 +56,8 @@ Operation:
 	Subtract π from the angle
 	Flip the sign of the initial vector
 Values used:
-Zi = angle_in - π
-Xi = -K
+Zi = angle_in - π;
+Xi = -K;
 Yi = 0
 
 	Case 3 — Angle is in the lower half-plane
@@ -67,8 +67,8 @@ Operation:
 	Add π to the angle
 	Flip the initial vector
 Values used:
-Zi = angle_in + π
-Xi = -K
+Zi = angle_in + π;
+Xi = -K;
 Yi = 0
 
 
