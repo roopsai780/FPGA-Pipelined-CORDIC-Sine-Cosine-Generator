@@ -36,9 +36,6 @@ Angle representation:
 We must fold the angle into the CORDIC working domain:
 -π/2≤Z_0≤+π/2
 
-CORDIC only works correctly in this zone.
-So the quadrant (domain) detector applies three cases:
-
 	Case 1 — Angle is already in the CORDIC domain
 Condition:
 -π/2≤"angle_in"≤+π/2
@@ -73,3 +70,5 @@ Values used:
 Zi = angle_in + π
 Xi = -K
 Yi = 0
+
+
